@@ -1,0 +1,12 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "strict-null-checks"
+  ],
+  "ignorePatterns": [
+    ".eslintrc.js"
+  ]
+}
