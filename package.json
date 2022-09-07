@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure/issues"
   },
-  "homepage": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure#readme"
+  "homepage": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
