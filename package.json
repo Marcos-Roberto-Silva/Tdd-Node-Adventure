@@ -1,0 +1,23 @@
+{
+  "name": "tdd-node-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure/issues"
+  },
+  "homepage": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
+}
