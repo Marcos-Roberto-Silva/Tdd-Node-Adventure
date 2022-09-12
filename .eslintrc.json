@@ -3,6 +3,9 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  },
   "plugins": [
     "strict-null-checks"
   ],
