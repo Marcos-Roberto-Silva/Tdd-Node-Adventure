@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure#readme",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^4.1.0",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^29.0.0",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^18.7.15",
     "@types/validator": "^13.7.7",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
