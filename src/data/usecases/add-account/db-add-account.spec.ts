@@ -2,6 +2,7 @@ import { DbAddAccount } from './db-add-account'
 import { AccountModel, AddAccountModel, Encrypter, AddAccountRepository } from "./db-add-account-protocols";
 
 const makeAddAccountRepository = (): AddAccountRepository => {
+
     class AddAccountRepositoryStub implements AddAccountRepository {
         async add (account: AddAccountModel): Promise<AccountModel> {
             const fakeAccount = {
