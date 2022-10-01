@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Marcos-Roberto-Silva/Tdd-Node-Adventure#readme",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^29.0.0",
     "@types/node": "^18.7.15",
     "@types/validator": "^13.7.7",
@@ -41,6 +42,7 @@
     "typescript": "^4.8.2"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "validator": "^13.7.0"
   }
 }
