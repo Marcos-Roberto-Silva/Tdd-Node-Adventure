@@ -2,7 +2,7 @@ import { MongoHelper as sut } from './mongo-helper'
 
 describe("Mongo Helper", () => {
     beforeAll(async () => {
-        await sut.connect(process.env.MONGODB_URL as string);
+        await sut.connect('mongodb://localhost:27017');
     })
 
     afterAll(async () => {
